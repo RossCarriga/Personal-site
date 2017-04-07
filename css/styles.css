@@ -64,12 +64,12 @@ body.active {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     text-align: center;
-    z-index: 10;
+    z-index: 10000;
     -webkit-animation-name: dropHeader;
     animation-name: dropHeader;
     -webkit-animation-iteration-count: 1;
